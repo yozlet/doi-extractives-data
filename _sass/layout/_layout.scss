@@ -243,6 +243,12 @@
   }
 }
 
+.container-shift-padding-2 {
+  @include respond-to(medium-up) {
+    @include shift-padding(2);
+  }
+}
+
 .container-padded {
   padding-bottom: $base-padding-extra;
   padding-top: $base-padding-extra;
@@ -257,6 +263,3 @@
   margin-bottom: $standard-padding-separation;
   margin-top: $standard-padding-separation;
 }
-
-
-
